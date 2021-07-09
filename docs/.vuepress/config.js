@@ -1,7 +1,7 @@
 module.exports = {
   title: "test blog",
   description: 'It just a test.',
-  dest: '/', // 输出目录
+  dest: './dist/', // 输出目录
   head: [  // 注入到html的head标签里的数据
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }]
