@@ -1,8 +1,8 @@
 module.exports = {
   title: "test blog",
   description: 'It just a test.',
-  dest: 'example/docs/public',
-  head: [
+  dest: '/', // 输出目录
+  head: [  // 注入到html的head标签里的数据
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }]
   ],
@@ -10,9 +10,9 @@ module.exports = {
   theme: 'reco',
   themeConfig: {
     nav: [
-      { text: 'Home', link: '/', icon: 'reco-home' },
-      { text: 'TimeLine', link: '/timeLine/', icon: 'reco-date' },
-      { text: 'Contact',
+      { text: '主页', link: '/', icon: 'reco-home' },
+      { text: '时间轴', link: '/timeLine/', icon: 'reco-date' },
+      { text: '联系我',
         icon: 'reco-message',
         items: [
           { text: 'NPM', link: 'https://www.npmjs.com/~reco_luan', icon: 'reco-npm' },
@@ -25,11 +25,11 @@ module.exports = {
     blogConfig: {
       category: {
         location: 2, // 在导航栏菜单中所占的位置，默认2
-        text: 'Category' // 默认 “分类”
+        text: '分类' // 默认 “分类”
       },
       tag: {
         location: 3, // 在导航栏菜单中所占的位置，默认3
-        text: 'Tag' // 默认 “标签”
+        text: '标签' // 默认 “标签”
       }
     },
     logo: '/head.png',
@@ -45,13 +45,13 @@ module.exports = {
     // 备案号
     record: '备案号',
     // 项目开始时间
-    startYear: '2017'
+    startYear: '2021',
     /**
      * 密钥 (if your blog is private)
      */
 
     // keyPage: {
-    //   keys: ['your password'],
+    //   keys: ['123456'],
     //   color: '#42b983',
     //   lineColor: '#42b983'
     // },
