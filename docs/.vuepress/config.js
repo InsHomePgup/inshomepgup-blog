@@ -12,13 +12,13 @@ module.exports = {
     nav: [
       { text: '主页', link: '/', icon: 'reco-home' },
       { text: '时间轴', link: '/timeLine/', icon: 'reco-date' },
-      { text: '联系我',
-        icon: 'reco-message',
-        items: [
-          { text: 'NPM', link: 'https://www.npmjs.com/~reco_luan', icon: 'reco-npm' },
-          { text: 'GitHub', link: 'https://github.com/recoluan', icon: 'reco-github' },
-        ]
-      }
+      // { text: '联系我',
+      //   icon: 'reco-message',
+      //   items: [
+      //     { text: 'NPM', link: 'https://www.npmjs.com/~reco_luan', icon: 'reco-npm' },
+      //     { text: 'GitHub', link: 'https://github.com/recoluan', icon: 'reco-github' },
+      //   ]
+      // }
     ],
     type: 'blog',
     // 博客设置
