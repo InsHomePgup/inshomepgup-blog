@@ -1,6 +1,6 @@
 module.exports = {
-  title: "test blog",
-  description: 'It just a test.',
+  title: "PrtSc",
+  description: '如果一份工作有太多无意义的消耗，就赶紧跑路吧。',
   dest: './dist/', // 输出目录
   head: [  // 注入到html的head标签里的数据
     ['link', { rel: 'icon', href: '/favicon.ico' }],
